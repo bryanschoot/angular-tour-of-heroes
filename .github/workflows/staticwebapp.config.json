@@ -2,22 +2,22 @@
   "routes": [
     {
       "route": "/*",
-      "redirect": "index.html"
+      "redirect": "/index.html"
     },
     {
       "route": "/dashboard",
-      "rewrite": "index.html"
+      "rewrite": "/index.html"
     },
     {
       "route": "/heroes",
-      "rewrite": "index.html"
+      "rewrite": "/index.html"
     },
     {
       "route": "/detail/*",
-      "rewrite": "index.html"
+      "rewrite": "/index.html"
     }
   ],
   "navigationFallback": {
-    "rewrite": "index.html"
+    "rewrite": "/index.html"
   }
 }
