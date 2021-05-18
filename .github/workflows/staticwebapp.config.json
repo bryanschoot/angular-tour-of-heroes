@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "route": "/dashboard",
+    },
+    {
+      "route": "/heroes",
+    },
+    {
+      "route": "/detail/*",
+    },
+}
