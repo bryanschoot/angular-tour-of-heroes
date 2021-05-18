@@ -6,11 +6,11 @@
     },
     {
       "route": "/heroes",
-      "rewrite": "/index.html"
+      "rewrite": "/heroes"
     },
     {
       "route": "/detail/*",
-      "rewrite": "/index.html"
+      "rewrite": "index.html"
     }
   ]
 }
