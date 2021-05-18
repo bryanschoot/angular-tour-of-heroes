@@ -2,12 +2,15 @@
   "routes": [
     {
       "route": "/dashboard",
+      "rewrite": "/index.html"
     },
     {
       "route": "/heroes",
+      "rewrite": "/index.html"
     },
     {
       "route": "/detail/*",
+      "rewrite": "/index.html"
     }
   ]
 }
